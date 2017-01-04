@@ -1,0 +1,53 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #2d3c49;
+	font-weight: 400;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2{
+	color: #7d97ad;
+}
+
+header{
+	border-bottom: 3px solid #7d97ad;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+a,a:hover{
+	color: #2d3c49;
+}
+
+.main{
+	margin-bottom: 30px;
+}
+
+article.col-sm-12{
+	margin-bottom: 20px;
+}
+
+.title{
+	font-weight: 100;
+	font-size: 60px;
+}
+
+.logo{
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 555px) {
+	.title {
+		font-size: 35px;
+	}
+}
+
+@media screen and (min-width: 556px) and (max-width: 601px) {
+	.title {
+		font-size: 55px;
+	}
+}
